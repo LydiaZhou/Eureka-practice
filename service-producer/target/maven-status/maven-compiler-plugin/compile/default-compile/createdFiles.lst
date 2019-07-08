@@ -1,0 +1,6 @@
+com/lydia/server/service/ProducerService.class
+com/lydia/server/service/implement/ProducerServiceImpl.class
+com/lydia/server/web/ProducerController.class
+com/lydia/server/config/RedisConfig.class
+com/lydia/server/Application.class
+com/lydia/server/Model/UnknownDO.class

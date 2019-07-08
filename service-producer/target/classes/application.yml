@@ -1,0 +1,12 @@
+server:
+  port: 8085  #启动其他实例时需要修改端口号
+spring:
+  application:
+    name: service-producer
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://admin:123456@localhost:8761/eureka/
+  instance:
+    # 配置使用主机名注册服务
+    hostname: service-producer
